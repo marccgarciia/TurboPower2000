@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Minds-of-Tomorrow | Marc</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!--Barra de Navegación-->
+    <ul id="nav">
+        <li><a href="#header">Welcome</a></li>
+        <li><a href="#programs">Programs</a></li>
+        <li><a href="#innovate">Innovate</a></li>
+        <li><a href="#potencial">Potencial</a></li>
+    </ul>
+    <!--Acaba la Barra de Navegación-->
+
+    <!--Header-->
+    <div class="header" id="header">
+        <img src="img/portada.jpg" alt="TurboPower2000">
+    </div>
+    <!--Acaba el Header-->
+
+
+    <div class="row">
+        <div class="two-column">
+            <h1>Recetas</h1>
+            <p>Infinitas recetas que puedes añadir y crear!</p>
+        </div>
+        <div class="two-column" id="comida">
+            <img src="img/comida.jpg" alt="Comida">
+        </div>
+    </div>
+
+
+
+
+
+
+    <div class="row">
+        <div class="one-column" id="disponible">
+            <h1>Disponible en...</h1>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="row" id="androidapple">
+        <div class="two-column">
+            <img src="img/apple.png" alt="Apple">
+        </div>
+        <div class="two-column">
+            <img src="img/android.png" alt="Android">
+        </div>
+    </div>
+
+
+
+
+
+    <div class="row" id="foro">
+        <div class="two-column">
+            <h1>Foro</h1>
+            <p>Puedes compartir tus recetas y opinar sobre recetas de otros!</p>
+        </div>
+        <div class="two-column">
+            <img src="img/foro.png" alt="Foro">
+        </div>
+    </div>
+
+
+
+
+
+    <div class="row" id="innovate">
+        <div class="four-column">
+            <img src="img/foto1.jpg" alt="Foto 1">
+        </div>
+        <div class="four-column">
+            <img src="img/foto2.jpg" alt="Foto 2">
+        </div>
+        <div class="four-column">
+            <img src="img/foto3.jpg" alt="Foto 3">
+        </div>
+        <div class="four-column">
+            <img src="img/foto4.jpg" alt="Foto 4">
+        </div>
+    </div>
+
+
+
+
+
+
+    <div class="footer">
+        <div class="four-column">
+            <p>© Minds of Tomorrow, LLC 2020</p>
+        </div>
+
+        <div class="four-column"></div>
+
+        <div class="four-column">
+            <p>Facebook</p>
+            <p>Instagram</p>
+        </div>
+
+        <div class="four-column">
+            <p>Our Programs</p>
+            <p>The Studio</p>
+        </div>
+    </div>
+    </div>
+    <script>
+        // When the user scrolls down 50px from the top of the document, resize the header's font size
+        window.onscroll = function() {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+                document.getElementById("nav").style.backgroundColor = "white";
+            } else {
+                document.getElementById("nav").style.backgroundColor = "rgba(0,0,0,0.0)";
+            }
+        }
+    </script>
+</body>
+
+</html>

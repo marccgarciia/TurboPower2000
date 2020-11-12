@@ -1,0 +1,188 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+
+/*Estilos de Navegación*/
+
+html {
+    scroll-behavior: smooth;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    font-size: 25px;
+    padding: 0px 15%;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: 0.8s;
+}
+
+li {
+    float: left;
+    width: 25%;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: #972222;
+}
+
+
+/*Estilos Header*/
+
+.header {
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    width: 100%;
+}
+
+.header img {
+    width: 100%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.header h1 {
+    font-size: 85px;
+}
+
+.one-column {
+    float: left;
+    width: 100%;
+    padding: 20px 20%;
+    background-color: #28ECA5;
+}
+
+.one-column h1 {
+    font-size: 70px;
+    text-align: center;
+}
+
+#androidapple {
+    background-color: white;
+}
+
+.two-column {
+    padding: 20px;
+    float: left;
+    width: 50%;
+}
+
+.two-column h1 {
+    font-size: 80px;
+}
+
+.two-column p {
+    font-size: 45px;
+}
+
+.two-column img {
+    width: 100%;
+}
+
+#comida {
+    border-radius: 50%;
+    width: 50%;
+}
+
+#foro {
+    background-color: #739BCD;
+}
+
+.four-column {
+    padding: 20px;
+    float: left;
+    width: 25%;
+}
+
+.four-column img {
+    width: 100%;
+    padding: 10px;
+}
+
+.padding-0 {
+    padding: 0px;
+}
+
+.sincolor {
+    background-color: #46A6FC;
+}
+
+.desc {
+    text-align: center;
+    padding: 20px;
+}
+
+.footer {
+    padding: 10px;
+    float: left;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: ;
+}
+
+@media screen and (max-width: 700px) {
+    .header {
+        width: 100%;
+        font-size: 100%;
+    }
+    .header h1 {
+        font-size: 100%;
+        width: 100%;
+    }
+    .one-column {
+        width: 100%;
+    }
+    .one-column h1 {
+        font-size: 100%;
+    }
+    .two-column {
+        width: 100%;
+    }
+    .two-column h1,
+    .two-column p {
+        font-size: 100%;
+    }
+    .four-column {
+        width: 100%;
+        font-size: 100%;
+        padding: 0px;
+    }
+    .four-column img {
+        width: 100%;
+    }
+    .footer {
+        width: 100%;
+        font-size: 100%;
+    }
+    #nav {
+        width: 100%;
+        padding: 0px;
+        font-size: 15px;
+    }
+    ul {
+        padding: 0px;
+    }
+}
